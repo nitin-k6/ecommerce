@@ -1,0 +1,71 @@
+/* Product card container */
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image-container {
+  position: relative;
+  padding-bottom: 300px;
+}
+
+.product-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px; 
+  width: 300px; 
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.product-content {
+  padding: 1rem;
+}
+
+.product-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0.5rem; /* Adjust margin */
+  margin-bottom: 0.25rem; /* Adjust margin */
+}
+
+.product-description {
+  color: #4a5568;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem; /* Reduced margin */
+}
+
+.product-price {
+  color: #38a169;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+/* Button styles */
+.product-button {
+  width: 120px; /* Set button width to 200px */
+  background-color: #4299e1;
+  color: #ffffff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: #3182ce;
+}
